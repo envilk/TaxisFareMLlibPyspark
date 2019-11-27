@@ -1,4 +1,4 @@
-#Apache Spark Software Technology Study Project
+# Apache Spark Software Technology Study Project
 
 This repository contains the code of the Jupyter Notebook that we worked with and the Latex's Report about the Technology Study Project that we did.
 
