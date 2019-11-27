@@ -1,11 +1,13 @@
-# DAT250: Report for the software technology study project
+# Apache Spark Software Technology Study Project
 
-Latex is a text processing system aimed at scientific writing.  
+This repository contains the code of the Jupyter Notebook that we worked with and the Latex's Report about the Technology Study Project that we did.
 
-This repository contains starter LaTeX code that you can use for writing the project report. The example code should have must constructs that you will need to get write the report. Learning LaTeX will also be helpful for later writing you master's thesis report.
+The main purpose of the project is to use a unified analytics engine (Apache Spark) to compare how clustering works with machine learning and how the technology works itself.
 
-LaTeX is available for several platforms (Windows, Mac OS, Linux). A good place to start is here: https://www.latex-project.org/get/
 
-It is certainly possible to use LaTeX is more advanced ways compared to what is shown here. If you have suggestion for extension of the template contact Lars.
+
+
+
+
 
 
