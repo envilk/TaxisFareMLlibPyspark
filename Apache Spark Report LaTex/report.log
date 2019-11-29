@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.26)  27 NOV 2019 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.26)  29 NOV 2019 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -544,7 +544,11 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) (./report.aux)
+) (./report.aux
+
+LaTeX Warning: Label `tab:results' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -560,8 +564,7 @@ LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 36.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -677,6 +680,10 @@ File: figs/TimelineSpark.jpg Graphic file (type jpg)
 Package pdftex.def Info: figs/TimelineSpark.jpg  used on input line 15.
 (pdftex.def)             Requested size: 389.35764pt x 180.37526pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
@@ -689,44 +696,103 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/TimelineSpark.jpg>]
-)
-(./sections/background.tex [2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./sections/background.te
+x
+Overfull \hbox (18.06818pt too wide) in paragraph at lines 7--8
+[]\OT1/ptm/m/n/10.95 The of-fi-cial web de-fines Apache Spark as an uni-fied an
+-a-lyt-ics en-gine for large-scale data processing.[[]] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+[2 <./figs/TimelineSpark.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
-<figs/spark-components.png, id=16, 304.9794pt x 143.5764pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+<figs/spark-components.png, id=19, 304.9794pt x 143.5764pt>
 File: figs/spark-components.png Graphic file (type png)
 <use figs/spark-components.png>
-Package pdftex.def Info: figs/spark-components.png  used on input line 45.
+Package pdftex.def Info: figs/spark-components.png  used on input line 64.
 (pdftex.def)             Requested size: 198.23425pt x 93.32353pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-[3]
+[4 <./figs/spark-components.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ” in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-<figs/cluster-overview.png, id=21, 598.235pt x 287.0725pt>
+<figs/cluster-overview.png, id=25, 598.235pt x 287.0725pt>
 File: figs/cluster-overview.png Graphic file (type png)
 <use figs/cluster-overview.png>
-Package pdftex.def Info: figs/cluster-overview.png  used on input line 74.
+Package pdftex.def Info: figs/cluster-overview.png  used on input line 92.
 (pdftex.def)             Requested size: 299.11676pt x 143.53589pt.
-) (./sections/prototype.tex [4 <./figs/spark-components.png> <./figs/cluster-ov
-erview.png>] (./code/BoksVolum.java)
+) (./sections/prototype.tex [5 <./figs/cluster-overview.png>]
+(./code/BoksVolum.java)
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
@@ -737,18 +803,23 @@ Missing character: There is no ™ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-) (./sections/experiments.tex [5]
+) (./sections/experiments.tex [6]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
@@ -756,29 +827,52 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-) (./sections/conclusion.tex) (./report.bbl [7]) [8] (./report.aux) ) 
+
+Overfull \hbox (81.16954pt too wide) in paragraph at lines 73--84
+ [][] 
+ []
+
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+) (./sections/conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+[8]) (./report.bbl) [9] (./report.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 15410 strings out of 492982
- 299462 string characters out of 6134895
+ 15411 strings out of 492982
+ 299479 string characters out of 6134895
  370753 words of memory out of 5000000
- 18621 multiletter control sequences out of 15000+600000
+ 18622 multiletter control sequences out of 15000+600000
  36629 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,72p,1007b,1116s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/shar
-e/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (8 pages, 170444 bytes).
+ 55i,8n,72p,1011b,1116s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a
+.pfb>
+Output written on report.pdf (9 pages, 174180 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,15 +1,18 @@
 \begin{thebibliography}{1}
 
-\bibitem{brown:96}
-A.W. Brown and K.~C. Wallnau.
-\newblock A framework for evaluating software technology.
-\newblock {\em IEEE Software}, 13(5):39--49, September 1996.
-
 \bibitem{brown:eadline2015hadoop}
 Douglas Eadline.
 \newblock {\em Hadoop 2 Quick-Start Guide: Learn the Essentials of Big Data
   Computing in the Apache Hadoop 2 Ecosystem}.
 \newblock Addison-Wesley Professional, 2015.
+
+\bibitem{sparkWebsite}
+Apache~Software Foundation.
+\newblock Apache spark official site.
+
+\bibitem{taxiDataset}
+Kaggle.
+\newblock New york city taxi fare prediction.
 
 \bibitem{wang2014characterization}
 Yandong Wang, Robin Goldstone, Weikuan Yu, and Teng Wang.

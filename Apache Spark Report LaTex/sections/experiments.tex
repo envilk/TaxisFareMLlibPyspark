@@ -36,10 +36,15 @@ technologies. Table~\ref{tab:results} gives an example of how to create a table.
 \subsection{Jupyter Notebooks}
 
 The software we used to experiment with the data was Jupyter Notebook to write python code and PySpark to run that python code into spark.
-Jupyter Notebook (formerly IPython Notebook) is an open-source web application that lets you create and share documents containing live code, equations, visualizations, and narrative text. Also, it is a widely used application in the field of Data Science to create and share documents including data cleansing and transformation, numerical simulation, statistical modeling, data visualization, automatic learning and much more. It allows you to edit and run notebook documents through any web browser of your choice, and it can run on a local desktop that does not require Internet access, or it can be installed on a remote server and accessed through the Internet. We can also run Jupyter Notebook without any installation.
+Jupyter Notebook (formerly IPython Notebook) is an open-source web application that lets you create and share documents containing live code, equations, visualizations, and narrative text.\\*
+
+Also, it is a widely used application in the field of Data Science to create and share documents including data cleansing and transformation, numerical simulation, statistical modeling, data visualization, automatic learning and much more.\\*
+It allows you to edit and run notebook documents through any web browser of your choice, and it can run on a local desktop that does not require Internet access, or it can be installed on a remote server and accessed through the Internet. We can also run Jupyter Notebook without any installation.
 
 \subsection{PySpark}
-PySpark is a python API for spark released by the Apache Spark community to support python with Spark. Using PySpark, one can easily integrate and work with RDD in python programming language too. Numerous features make PySpark such an amazing framework when it comes to working with huge datasets. Whether it is to perform computations on large data sets or to just analyze them, Data engineers are turning to this tool. Following are some of the said features.\\*
+PySpark is a python API for spark released by the Apache Spark community to support python with Spark. Using PySpark, one can easily integrate and work with RDD in python programming language too. 
+
+Numerous features make PySpark such an amazing framework when it comes to working with huge datasets. Whether it is to perform computations on large data sets or to just analyze them, Data engineers are turning to this tool. Following are some of the said features.\\*
 
 \noindent
 The following features are the key features of PySpark:
@@ -53,11 +58,32 @@ The following features are the key features of PySpark:
 \end{description}
 
 \noindent
-\subsection{About the dataset Taxi Problem}
+\subsection{About the dataset Taxi Problem} \cite{taxiDataset}
 
-The goal of this dataset is predicting the fare amount (inclusive of tolls) for a taxi ride in New York City given the pickup and dropoff locations. While you can get a basic estimate based on just the distance between the two points, this will result in an RMSE of $5-$8, depending on the model used. Our challenge is to do musing Machine Learning techniques.\\*
+The goal of this dataset is predicting the fare amount (inclusive of tolls) for a taxi ride in New York City given the pickup and dropoff locations. While you can get a basic estimate based on just the distance between the two points, this will result in an RMSE of $5-$8, depending on the model used. Our challenge is to do it using distributed Machine Learning techniques.\\*
+
+We also choose this dataset because contains 6 Gb of data, so we think that is a proper amount of data for test our results.
 
 \subsection{Experiments }
-We have done six experiments (Each experiment it’s a model testing), three of them to try Linear regression, Decision tree regression and Random forest regression in Native Spark and the other three to try Linear regression, Decision tree regression and Random forest regression in Local Cluster mode.\\*
 
+We have done six experiments (Each experiment it’s a model testing), to try Linear regression, Decision tree regression and Random forest regression in Native Clustering and the rest to try Linear regression, Decision tree regression and Random forest regression in Local Cluster mode.\\*
 
+\begin{table}[h]
+	\centering
+	\begin{tabular}{llrrrrrr}
+		Mode & Machine Learning Model & Time-1 & RMSE-1 & Time-2 & RMSE-2 & Time-3 & RMSE-3
+		\\ \hline \hline
+		Native Cluster  & Linear Regression   &    4:04 min  &   20.7  &  11:47 min & 20.7 & 8:17 min & 20.7 \\   
+		Native Cluster  & Decision Tree   &    8:37 min  &   23.96  &  20:22 min  &  23.96  & 20:05 min &  23.96\\   
+		Native Cluster  & Random Forest   &   11:50 min &   23.96  &  35:37 min  & 24.82  & 35:53 min & 24.82 \\  \hline
+		Local Cluster   & Linear Regression   &   2:33 min &   20.7  &  7:40 min  & 20.7 & 7:36 min  & 20.7   \\ 
+		Local Cluster   & Decision Tree   &   5:30 min &   16.49  & 11:35 min & 24.03 & 13:05 min & 24.03  \\   
+		Local Cluster   & Random Forest   &   8:44 min &   23.96  & 18:30 min & 23.96 & \textbf{26:28 min} & \textbf{6.86}  \\
+		\hline \hline
+	\end{tabular}
+	\caption{Selected experimental results on the training models.}
+	\label{tab:results}
+\end{table}
+
+We have two important approaches, one is that Linear Regression is the fastest model, and Random Forest is the worst (What it isn’t so important for our main purpose), and the other one is that clearly, with local clustering the machine invest much less time than with Native Spark training the same models respectively.
+Also, it’s better to use Clustering with several machines, but we couldn’t really experiment with that.
