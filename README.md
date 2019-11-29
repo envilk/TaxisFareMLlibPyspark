@@ -12,7 +12,6 @@ The models used are \textbf{Linear Regression}, \textbf{Decision Tree} and \text
 
 Another improvement would be to work with \textbf{Remote Clustering} in a network with several machines, but it wasn't possible to implement it in the end. Remote clustering is more efficient because of the quantity of cores used to parallelize the tasks.
 
-
 This repository contains the code of the Jupyter Notebook that we worked with and the Latex's Report about the Technology Study Project that we did.
 
 
