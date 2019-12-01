@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.26)  29 NOV 2019 20:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.26)  1 DEC 2019 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -782,38 +782,38 @@ LaTeX Info: Redefining \nameref on input line 38.
 \@outlinefile=\write4
 \openout4 = `report.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 45
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 46
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 45
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 46
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 45
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 46
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 45
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 46
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 
 (./sections/introduction.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
@@ -901,7 +901,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-<figs/spark-components.png, id=91, 304.9794pt x 143.5764pt>
+<figs/spark-components.png, id=95, 304.9794pt x 143.5764pt>
 File: figs/spark-components.png Graphic file (type png)
 <use figs/spark-components.png>
 Package pdftex.def Info: figs/spark-components.png  used on input line 64.
@@ -917,7 +917,7 @@ Missing character: There is no ” in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no “ in font ptmr7t!
-<figs/cluster-overview.png, id=102, 598.235pt x 287.0725pt>
+<figs/cluster-overview.png, id=106, 598.235pt x 287.0725pt>
 File: figs/cluster-overview.png Graphic file (type png)
 <use figs/cluster-overview.png>
 Package pdftex.def Info: figs/cluster-overview.png  used on input line 90.
@@ -931,7 +931,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-<code/Taxi.pdf, id=111, 614.295pt x 794.97pt>
+<code/Taxi.pdf, id=116, 614.295pt x 794.97pt>
 File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf>
 Package pdftex.def Info: code/Taxi.pdf  used on input line 20.
@@ -940,7 +940,7 @@ File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf>
 Package pdftex.def Info: code/Taxi.pdf  used on input line 20.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<code/Taxi.pdf, id=114, page=1, 614.295pt x 794.97pt>
+<code/Taxi.pdf, id=119, page=1, 614.295pt x 794.97pt>
 File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf, page 1>
 Package pdftex.def Info: code/Taxi.pdf , page1 used on input line 20.
@@ -963,7 +963,7 @@ File: code/Taxi.pdf Graphic file (type pdf)
 Package pdftex.def Info: code/Taxi.pdf , page1 used on input line 20.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [7 <./code/Taxi.pdf>]
-<code/Taxi.pdf, id=156, page=2, 614.295pt x 794.97pt>
+<code/Taxi.pdf, id=161, page=2, 614.295pt x 794.97pt>
 File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf, page 2>
 Package pdftex.def Info: code/Taxi.pdf , page2 used on input line 20.
@@ -977,7 +977,7 @@ File: code/Taxi.pdf Graphic file (type pdf)
 Package pdftex.def Info: code/Taxi.pdf , page2 used on input line 20.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [8 <./code/Taxi.pdf>]
-<code/Taxi.pdf, id=172, page=3, 614.295pt x 794.97pt>
+<code/Taxi.pdf, id=177, page=3, 614.295pt x 794.97pt>
 File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf, page 3>
 Package pdftex.def Info: code/Taxi.pdf , page3 used on input line 20.
@@ -992,7 +992,7 @@ Package pdftex.def Info: code/Taxi.pdf , page3 used on input line 20.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
 
 [9 <./code/Taxi.pdf>]
-<code/Taxi.pdf, id=177, page=4, 614.295pt x 794.97pt>
+<code/Taxi.pdf, id=182, page=4, 614.295pt x 794.97pt>
 File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf, page 4>
 Package pdftex.def Info: code/Taxi.pdf , page4 used on input line 20.
@@ -1006,7 +1006,7 @@ File: code/Taxi.pdf Graphic file (type pdf)
 Package pdftex.def Info: code/Taxi.pdf , page4 used on input line 20.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [10 <./code/Taxi.pdf>]
-<code/Taxi.pdf, id=182, page=5, 614.295pt x 794.97pt>
+<code/Taxi.pdf, id=187, page=5, 614.295pt x 794.97pt>
 File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf, page 5>
 Package pdftex.def Info: code/Taxi.pdf , page5 used on input line 20.
@@ -1020,7 +1020,7 @@ File: code/Taxi.pdf Graphic file (type pdf)
 Package pdftex.def Info: code/Taxi.pdf , page5 used on input line 20.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [11 <./code/Taxi.pdf>]
-<code/Taxi.pdf, id=187, page=6, 614.295pt x 794.97pt>
+<code/Taxi.pdf, id=192, page=6, 614.295pt x 794.97pt>
 File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf, page 6>
 Package pdftex.def Info: code/Taxi.pdf , page6 used on input line 20.
@@ -1034,7 +1034,7 @@ File: code/Taxi.pdf Graphic file (type pdf)
 Package pdftex.def Info: code/Taxi.pdf , page6 used on input line 20.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [12 <./code/Taxi.pdf>]
-<code/Taxi.pdf, id=192, page=7, 614.295pt x 794.97pt>
+<code/Taxi.pdf, id=197, page=7, 614.295pt x 794.97pt>
 File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf, page 7>
 Package pdftex.def Info: code/Taxi.pdf , page7 used on input line 20.
@@ -1048,7 +1048,7 @@ File: code/Taxi.pdf Graphic file (type pdf)
 Package pdftex.def Info: code/Taxi.pdf , page7 used on input line 20.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [13 <./code/Taxi.pdf>]
-<code/Taxi.pdf, id=198, page=8, 614.295pt x 794.97pt>
+<code/Taxi.pdf, id=203, page=8, 614.295pt x 794.97pt>
 File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf, page 8>
 Package pdftex.def Info: code/Taxi.pdf , page8 used on input line 20.
@@ -1062,7 +1062,7 @@ File: code/Taxi.pdf Graphic file (type pdf)
 Package pdftex.def Info: code/Taxi.pdf , page8 used on input line 20.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [14 <./code/Taxi.pdf>]
-<code/Taxi.pdf, id=203, page=9, 614.295pt x 794.97pt>
+<code/Taxi.pdf, id=208, page=9, 614.295pt x 794.97pt>
 File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf, page 9>
 Package pdftex.def Info: code/Taxi.pdf , page9 used on input line 20.
@@ -1076,7 +1076,7 @@ File: code/Taxi.pdf Graphic file (type pdf)
 Package pdftex.def Info: code/Taxi.pdf , page9 used on input line 20.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [15 <./code/Taxi.pdf>]
-<code/Taxi.pdf, id=208, page=10, 614.295pt x 794.97pt>
+<code/Taxi.pdf, id=213, page=10, 614.295pt x 794.97pt>
 File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf, page 10>
 Package pdftex.def Info: code/Taxi.pdf , page10 used on input line 20.
@@ -1090,7 +1090,7 @@ File: code/Taxi.pdf Graphic file (type pdf)
 Package pdftex.def Info: code/Taxi.pdf , page10 used on input line 20.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [16 <./code/Taxi.pdf>]
-<code/Taxi.pdf, id=213, page=11, 614.295pt x 794.97pt>
+<code/Taxi.pdf, id=218, page=11, 614.295pt x 794.97pt>
 File: code/Taxi.pdf Graphic file (type pdf)
 <use code/Taxi.pdf, page 11>
 Package pdftex.def Info: code/Taxi.pdf , page11 used on input line 20.
@@ -1104,14 +1104,27 @@ File: code/Taxi.pdf Graphic file (type pdf)
 Package pdftex.def Info: code/Taxi.pdf , page11 used on input line 20.
 (pdftex.def)             Requested size: 552.86038pt x 715.4664pt.
  [17 <./code/Taxi.pdf>]) (./sections/experiments.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 4.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 12.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 29.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
@@ -1147,20 +1160,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
  []
 
 ) (./sections/conclusion.tex [19]) (./report.bbl) [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 470E59687D07F7E096BE78F31A8D9BB0;861.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
+(rerunfilecheck)             Checksum: 3C468F9645F8C73A70C87DD091129913;889.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 19631 strings out of 492982
- 365210 string characters out of 6134895
+ 19636 strings out of 492982
+ 365267 string characters out of 6134895
  458078 words of memory out of 5000000
- 22744 multiletter control sequences out of 15000+600000
+ 22747 multiletter control sequences out of 15000+600000
  35044 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,19n,72p,1011b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1174,10 +1187,10 @@ e1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (20 pages, 339228 bytes).
+Output written on report.pdf (20 pages, 339035 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 284 PDF objects out of 1000 (max. 8388607)
+ 228 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
  210 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -10,9 +10,17 @@ Douglas Eadline.
 Apache~Software Foundation.
 \newblock Apache spark official site.
 
+\bibitem{pySpark}
+Apache~Spark Foundation.
+\newblock Pyspark.
+
 \bibitem{taxiDataset}
 Kaggle.
 \newblock New york city taxi fare prediction.
+
+\bibitem{Jupyter}
+IPythinon Project.
+\newblock Jupyter notebook.
 
 \bibitem{wang2014characterization}
 Yandong Wang, Robin Goldstone, Weikuan Yu, and Teng Wang.
